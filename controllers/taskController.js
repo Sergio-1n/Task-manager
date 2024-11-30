@@ -70,7 +70,7 @@ export const getTasksByUserId = async (req, res) => {
 
         return res.status(200).json(tasks);
     } catch (err) {
-        res.status(400).json({ message: 'Failed to find all tasks' });
+        res.status(400).json({ message: 'Failed to find the task' });
     }
 };
 
